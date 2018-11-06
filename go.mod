@@ -1,4 +1,4 @@
-module gopkg.in/src-d/go-git.v4
+module github.com/fkorotkov/go-git
 
 require (
 	github.com/alcortesm/tgz v0.0.0-20161220082320-9c5fe88206d7 // indirect

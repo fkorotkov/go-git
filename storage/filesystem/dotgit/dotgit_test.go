@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/fkorotkov/go-git/plumbing"
 	"gopkg.in/src-d/go-billy.v4"
-	"gopkg.in/src-d/go-git.v4/plumbing"
 
 	. "gopkg.in/check.v1"
 	"gopkg.in/src-d/go-billy.v4/osfs"

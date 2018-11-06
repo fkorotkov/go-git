@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"strconv"
 
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport/internal/common"
+	"github.com/fkorotkov/go-git/plumbing/transport"
+	"github.com/fkorotkov/go-git/plumbing/transport/internal/common"
 
 	"github.com/kevinburke/ssh_config"
 	"golang.org/x/crypto/ssh"

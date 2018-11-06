@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/fkorotkov/go-git/plumbing"
+	"github.com/fkorotkov/go-git/utils/ioutil"
 	"gopkg.in/src-d/go-billy.v4/osfs"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/utils/ioutil"
 
 	"gopkg.in/src-d/go-billy.v4"
 )

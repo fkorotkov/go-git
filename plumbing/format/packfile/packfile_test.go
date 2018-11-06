@@ -4,13 +4,13 @@ import (
 	"io"
 	"math"
 
+	"github.com/fkorotkov/go-git/plumbing"
+	"github.com/fkorotkov/go-git/plumbing/format/idxfile"
+	"github.com/fkorotkov/go-git/plumbing/format/packfile"
+	"github.com/fkorotkov/go-git/plumbing/storer"
 	. "gopkg.in/check.v1"
 	"gopkg.in/src-d/go-billy.v4/osfs"
 	fixtures "gopkg.in/src-d/go-git-fixtures.v3"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/idxfile"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/packfile"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
 )
 
 type PackfileSuite struct {

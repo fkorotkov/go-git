@@ -6,7 +6,7 @@ import (
 	"io"
 	"strings"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
+	"github.com/fkorotkov/go-git/plumbing"
 )
 
 const (

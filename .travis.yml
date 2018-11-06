@@ -4,7 +4,7 @@ go:
   - "1.10"
   - "1.11"
 
-go_import_path: gopkg.in/src-d/go-git.v4
+go_import_path: github.com/fkorotkov/go-git
 
 env:
   - GIT_VERSION=master

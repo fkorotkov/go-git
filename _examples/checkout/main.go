@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"gopkg.in/src-d/go-git.v4"
-	. "gopkg.in/src-d/go-git.v4/_examples"
-	"gopkg.in/src-d/go-git.v4/plumbing"
+	"github.com/fkorotkov/go-git"
+	. "github.com/fkorotkov/go-git/_examples"
+	"github.com/fkorotkov/go-git/plumbing"
 )
 
 // Basic example of how to checkout a specific commit.

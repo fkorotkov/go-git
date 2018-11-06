@@ -6,10 +6,10 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/fkorotkov/go-git/config"
+	"github.com/fkorotkov/go-git/plumbing"
+	"github.com/fkorotkov/go-git/plumbing/format/index"
 	"gopkg.in/src-d/go-billy.v4"
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/index"
 )
 
 var (

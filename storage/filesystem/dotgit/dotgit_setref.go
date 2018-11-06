@@ -5,8 +5,8 @@ package dotgit
 import (
 	"os"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/utils/ioutil"
+	"github.com/fkorotkov/go-git/plumbing"
+	"github.com/fkorotkov/go-git/utils/ioutil"
 )
 
 func (d *DotGit) setRef(fileName, content string, old *plumbing.Reference) (err error) {
