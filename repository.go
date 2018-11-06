@@ -6,6 +6,7 @@ import (
 	"errors"
 	"fmt"
 	stdioutil "io/ioutil"
+	"log"
 	"os"
 	"path"
 	"path/filepath"
@@ -645,6 +646,9 @@ func (r *Repository) clone(ctx context.Context, o *CloneOptions) error {
 		Fetch: r.cloneRefSpec(o),
 	}
 
+	log.Println("XXX")
+	log.Println(c.Fetch)
+
 	if _, err := r.CreateRemote(c); err != nil {
 		return err
 	}
@@ -758,6 +762,9 @@ func (r *Repository) updateRemoteConfigIfNeeded(o *CloneOptions, c *config.Remot
 	}
 
 	c.Fetch = r.cloneRefSpec(o)
+
+	log.Println("YYY")
+	log.Println(c.Fetch)
 
 	cfg, err := r.Storer.Config()
 	if err != nil {
